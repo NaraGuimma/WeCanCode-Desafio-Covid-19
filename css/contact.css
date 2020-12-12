@@ -1,0 +1,104 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.top {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  background-color: #333;
+}
+
+.top a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.top a p.topMenu {
+  font-size: 1em;
+}
+
+p.topMenu {
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+.modal-container {
+  margin: 0;
+  padding: 0;
+  width: 550px;
+  height: 400px;
+  margin-top: 4em;
+  margin-left: 26em;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  border-radius: 5em;
+}
+
+.contactUs {
+  padding-top: 1em;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 3em;
+}
+
+label {
+  margin-left: 5em;
+
+}
+
+form p {
+  padding-top: 2.5em;
+}
+
+p.comment {
+  margin-top: 0;
+  padding-top: 0.5em;
+  margin-left: 5em;
+}
+
+
+p.comments {
+  padding-top: 1.5em;
+}
+
+#comment {
+  border-radius: 1.2em;
+  border-style: solid;
+}
+
+button {
+  width: 8em;
+  height: 4em;
+  border-radius: 3em;
+  font-size: medium;
+  font-weight: bolder;
+  background-color: darkred;
+  color: whitesmoke
+}
+
+p.button {
+  padding-top: 1em;
+  margin-left: 15em;
+}
+
+input {
+  border-radius: 1.2em;
+}
+
+#name,
+#email {
+  height: 2em;
+  width: 26em;
+  margin-left: 0.8em;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+}

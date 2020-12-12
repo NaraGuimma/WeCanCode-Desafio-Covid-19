@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <div class="top">
+      <a href="./index.html"><p class="topMenu">Home</p></a>
+    </div>
+    <p class="contactUs">Contate-nos</p>
+    <main class="modal-container">
+      <form
+        name="contact"
+        method="POST"
+        action="index.html"
+        data-netlify="true"
+      >
+        <p>
+          <label for="name" class="input">Nome</label
+          ><input type="text" name="name" id="name" />
+        </p>
+        <p>
+          <label for="email">E-mail</label
+          ><input type="email" name="email" id="email" />
+        </p>
+        <p class="comments"><label for="comment">Comentário</label></p>
+        <p class="comment">
+          <textarea name="comment" id="comment" cols="55" rows="8"></textarea>
+        </p>
+        <p class="button"><button type="submit">Enviar</button></p>
+      </form>
+    </main>
+  </body>
+</html>
